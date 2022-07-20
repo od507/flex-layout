@@ -1,15 +1,20 @@
 .main{
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vh;
+    height: 200vh;
+    width: 100vw;
 }
 
 .header{
     height: 30%;
+    width:100vw;
     background-color: #1f2937;
     display: flex;
-    padding-left: 60px;
+    padding-left: 100px;
+    justify-content: space-between;
+    margin-right: 0%;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .header-logo{
@@ -17,4 +22,72 @@
     height: 20px;
     color: #f9faf8;
     font-size: 24px;
+    width: 30%;
+}
+
+.header-links{
+    display: flex;
+    height: 40px;
+    justify-content: flex-end;
+    color: #e5e7eb;
+    width: 40%;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+li{
+    list-style: none;
+}
+
+.header-text{
+    height: fit-content;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-image{
+    background-color: #e5e7eb;
+    height: 40%;
+    width: 30%;
+    margin: 60px;
+}
+
+.header-button{
+    width: 100px;
+    height: 30px;
+    align-self: flex-start;
+    background-color: #2882f6;
+    color: #e5e7eb;
+    padding: 0%;
+    border-radius: 15%;
+    border: none;
+}
+
+.middle-top{
+    display:flex;
+    justify-content: center;
+}
+
+.middle-top h3{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.squares{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 20%;
+    flex-wrap: wrap;
 }
